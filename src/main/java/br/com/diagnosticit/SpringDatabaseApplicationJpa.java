@@ -20,7 +20,7 @@ public class SpringDatabaseApplicationJpa implements CommandLineRunner{
     Logger logger = LoggerFactory.getLogger(this.getClass());
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringDatabaseApplicationJpa.class, args);                
+        SpringApplication.run(SpringDatabaseApplicationJpa.class, args);                 
 
     }
 
